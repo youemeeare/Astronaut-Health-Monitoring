@@ -1,0 +1,23 @@
+{
+  "expo": {
+    "name": "ASTRA-MED X",
+    "slug": "astra-med-x",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "astramedx",
+    "userInterfaceStyle": "dark",
+    "plugins": [
+      "expo-router",
+      "expo-secure-store"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "android": {
+      "package": "com.veltrix.astramedx"
+    },
+    "ios": {
+      "bundleIdentifier": "com.veltrix.astramedx"
+    }
+  }
+}
